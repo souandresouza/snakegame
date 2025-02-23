@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8bac0f;
+}
+
+.gameboy {
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid #9bbc0f;
+    width: 90%;
+    max-width: 400px;
+}
+
+.screen {
+    background-color: #306230;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #0f380f;
+}
+
+#gameCanvas {
+    width: 100%;
+    height: auto;
+    background-color: #9bbc0f;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.horizontal {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #0f380f;
+    color: #9bbc0f;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #306230;
+}
