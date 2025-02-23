@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #8bac0f;
+}
+
+.gameboy {
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 5px solid #9bbc0f;
+}
+
+.screen {
+    background-color: #306230;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0f380f;
+}
+
+#gameCanvas {
+    background-color: #9bbc0f;
+    display: block;
+}
+
+.controls {
+    display: none; /* Controles móveis escondidos no desktop */
+}
