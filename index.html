@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game - Gameboy Style</title>
+    <link rel="stylesheet" href="desktop.css" media="screen and (min-width: 769px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+</head>
+<body>
+    <div class="gameboy">
+        <div class="screen">
+            <canvas id="gameCanvas" width="400" height="400"></canvas>
+        </div>
+        <div class="controls mobile-only">
+            <button id="up">▲</button>
+            <div class="horizontal">
+                <button id="left">◄</button>
+                <button id="right">►</button>
+            </div>
+            <button id="down">▼</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
